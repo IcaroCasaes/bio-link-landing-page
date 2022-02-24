@@ -1,0 +1,306 @@
+/* ------- Below 1396px (smaller desktops)---------- */
+
+@media (max-width: 87.25em) {
+  .content-container {
+    max-width: 120rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 12.8rem;
+  }
+
+  .inner-btns {
+    grid-column: 2;
+  }
+
+  .first-heading {
+    font-size: 3rem;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+  }
+}
+
+/* ------- Below 1200px (Landscape Tablets)---------- */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .content-container {
+    grid-template-columns: 1.75fr 1fr;
+    gap: 8rem;
+  }
+
+  .page-title {
+    font-weight: 600;
+  }
+
+  .page-credits {
+    font-size: 2rem;
+  }
+}
+
+/* -------- Below 960px (Tablets) ------------------ */
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+      url(img/bruna-background-laptop.png);
+  }
+
+  .main {
+    padding: 3.2rem 9.8rem 4.8rem;
+  }
+
+  .page-title {
+    padding-bottom: 1.6rem;
+
+    background-color: rgba(13, 22, 32, 0.2);
+  }
+
+  .content-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .inner-btns {
+    grid-column: 1;
+    max-width: 40rem;
+  }
+
+  .first-heading,
+  .cta-text {
+    text-align: center;
+  }
+
+  .first-heading {
+    letter-spacing: 0.5px;
+    font-size: 4.4rem;
+  }
+
+  .cta-text {
+    font-size: 2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2.4rem;
+  }
+
+  .page-credits {
+    font-size: 3rem;
+  }
+
+  .btn--ved {
+    order: -1;
+  }
+
+  .magin-bottom-sm {
+    margin-bottom: 0;
+  }
+
+  .margin-with-ved-above {
+    margin-bottom: 3.2rem;
+  }
+
+  .stretching {
+    min-height: 100%;
+    height: auto;
+  }
+
+  /* ----- changing the pointing finger direction */
+  .finger {
+    visibility: hidden;
+  }
+
+  .finger::before {
+    content: "👇🏼";
+    visibility: visible;
+  }
+}
+
+/* -------- Below 704px (Smaller tablets) ------------------ */
+
+@media (max-width: 44em) {
+  .content-container {
+    gap: 4.8rem;
+  }
+
+  .page-title {
+    font-size: 3rem;
+  }
+
+  .first-heading {
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+  }
+
+  .page-credits {
+    font-size: 2.4rem;
+  }
+
+  .inner-btns {
+    max-width: 30rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+}
+
+/* -------- Below 528px (Smaller tablets) ------------------ */
+
+@media (max-width: 33em) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+      url(img/bruna-background-mobile-g.png);
+  }
+
+  .page-title {
+    letter-spacing: 2px;
+    padding: 1.2rem 0;
+  }
+
+  .main {
+    padding: 2.4rem 6.4rem 4.8rem;
+  }
+
+  .first-heading {
+    font-size: 3rem;
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+  }
+
+  .cta-text {
+    font-size: 1.8rem;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+  }
+}
+
+/* -------- Below 400px (Smartphones) ------------------ */
+
+@media (max-width: 26.6em) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+      url(img/bruna-background-mobile-m.png);
+  }
+
+  .main {
+    padding: 2.4rem 4.8rem 4.8rem;
+  }
+
+  .page-title {
+    font-size: 2.4rem;
+  }
+
+  .first-heading {
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+  }
+
+  .inner-btns {
+    max-width: 27rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 1.6rem 2.4rem;
+  }
+
+  .page-credits {
+    font-size: 2rem;
+  }
+}
+
+/* -------- Below 380px (Meidum smartphones) ------------------ */
+
+@media (max-width: 23.75em) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+      url(img/bruna-background-mobile-m-2.png);
+  }
+}
+
+/* -------- Below 336px (Small smartphones) ------------------ */
+
+@media (max-width: 21em) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+      url(img/bruna-background-mobile-p.png);
+  }
+
+  .main {
+    padding: 2.4rem 3.2rem 4.8rem;
+  }
+
+  .content-container {
+    gap: 3.2rem;
+  }
+}
+
+/* --------------------------------------------------------------------- */
+
+/*
+--- 01 Typography system
+
+-- Font sizes (rem)
+0.1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+
+-- Font wheights
+-Cormorant Garamont: 400 (default), 500, 600, 700
+-Montserrat: 300, 400(default), 500, 700
+
+-- Line heights
+- Default: 1
+- Small: 1.1
+- Medium: 1.4
+- Paragraph default: 1.6
+- Large: 1.8
+
+-- Letter spacing
+- -0.5px
+- 0.75px
+- 4px (logo/title)
+
+--- 02 Colors
+
+-- Primary: #212529
+-- Tints: #0d1620
+-- Shades:
+-- Accents:
+-- Greys: #e9ecef
+
+--- 05 Shadows
+
+--- 06 Border-radius
+
+--- 07 Withespace
+
+-- Spacing system (rem)
+0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.4 / 8 / 9.6 / 12.8
+
+*/

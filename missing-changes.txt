@@ -1,0 +1,6 @@
+Future changes:
+
+- Adjust the texts
+- Setup all links
+- Anchor my webpage link to my name at the bottom
+- Anchor Bruna's webpage link to the title

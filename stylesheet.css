@@ -1,0 +1,157 @@
+/*
+--- 01 Typography system
+
+-- Font sizes (rem)
+0.1 / 1.2 / 1.4 / 1.6 / 1.8 / 2 / 2.4 / 3 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+
+-- Font wheights
+-Cormorant Garamont: 400 (default), 500, 600, 700
+-Montserrat: 300, 400(default), 500, 700
+
+-- Line heights
+- Default: 1
+- Small: 1.1
+- Medium: 1.4
+- Paragraph default: 1.6
+- Large: 1.8
+
+-- Letter spacing
+- -0.5px
+- 0.75px
+- 4px (logo/title)
+
+--- 02 Colors
+
+-- Primary: #212529
+-- Tints: #0d1620
+-- Shades:
+-- Accents:
+-- Greys: #e9ecef
+
+--- 05 Shadows
+
+--- 06 Border-radius
+
+--- 07 Withespace
+
+-- Spacing system (rem)
+0.2 / 0.4 / 0.8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.4 / 8 / 9.6 / 12.8
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  color: #e9ecef;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
+    url(img/bruna-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.6rem 0 0;
+  letter-spacing: 4px;
+}
+
+.main {
+  padding: 4.8rem 9.6rem;
+}
+
+.content-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 6fr 1fr 4fr;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.first-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+
+  margin-bottom: 3.2rem;
+}
+
+.inner-btns {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  grid-column: 3;
+}
+
+.cta-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* ---------------------- buttom styling -------------------------- */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e9ecef;
+  text-decoration: none;
+
+  background-color: #212529;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  box-shadow: 1rem 1rem 1rem rgb(0, 0, 0, 0.1);
+
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn--ved:link,
+.btn--ved:visited {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.magin-bottom-sm {
+  margin-bottom: 3.2rem;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.page-credits {
+  font-size: 2rem;
+  text-align: center;
+  color: #adb5bd;
+  font-style: italic;
+  text-align: center;
+
+  padding: 0 0 0.8rem;
+}
+
+.stretching {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
