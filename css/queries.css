@@ -55,7 +55,7 @@
 
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-      url(img/bruna-background-laptop.png);
+      url(../img/bruna-background-laptop.png);
   }
 
   .main {
@@ -165,7 +165,7 @@
 @media (max-width: 33em) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-      url(img/bruna-background-mobile-g.png);
+      url(../img/bruna-background-mobile-g.png);
   }
 
   .page-title {
@@ -201,7 +201,7 @@
 @media (max-width: 26.6em) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-      url(img/bruna-background-mobile-m.png);
+      url(../img/bruna-background-mobile-m.png);
   }
 
   .main {
@@ -241,7 +241,7 @@
 @media (max-width: 23.75em) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-      url(img/bruna-background-mobile-m-2.png);
+      url(../img/bruna-background-mobile-m-2.png);
   }
 }
 
@@ -250,7 +250,7 @@
 @media (max-width: 21em) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-      url(img/bruna-background-mobile-p.png);
+      url(../img/bruna-background-mobile-p.png);
   }
 
   .main {

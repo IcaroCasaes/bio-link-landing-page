@@ -55,7 +55,7 @@ body {
   color: #e9ecef;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-    url(img/bruna-background.png);
+    url(../img/bruna-background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
