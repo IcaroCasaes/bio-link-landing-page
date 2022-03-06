@@ -6,7 +6,7 @@
 
 -- Font wheights
 -Cormorant Garamont: 400 (default), 500, 600, 700
--Montserrat: 300, 400(default), 500, 700
+-Montserrat: 300, 400(default), 500, 600, 700
 
 -- Line heights
 - Default: 1
@@ -54,18 +54,24 @@ body {
   font-weight: 400;
   color: #e9ecef;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(13, 22, 32, 0.6)),
-    url(../img/bruna-background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(252, 164, 2, 0.2)),
+    url(../img/bruna-background-inverted.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.title {
+  text-align: center;
 }
 
 .page-title {
   font-size: 3.6rem;
   font-weight: 700;
-  text-align: center;
-  padding: 1.6rem 0 0;
   letter-spacing: 4px;
+  text-decoration: none;
+  color: #e9ecef;
+
+  padding: 1.6rem 0 0;
 }
 
 .main {
@@ -76,14 +82,15 @@ body {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 6fr 1fr 4fr;
-  gap: 4.8rem;
+  grid-template-columns: 6fr 4fr;
+  gap: 9.8rem;
   align-items: center;
 }
 
 .first-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 3.6rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.75px;
 
@@ -93,8 +100,7 @@ body {
 .inner-btns {
   display: flex;
   flex-direction: column;
-  max-width: 30rem;
-  grid-column: 3;
+  max-width: 50rem;
 }
 
 .cta-text {
@@ -112,13 +118,12 @@ body {
   display: inline-block;
 
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 700;
   color: #e9ecef;
   text-decoration: none;
 
   background-color: #212529;
-  padding: 1.6rem 3.2rem;
   border-radius: 0.3rem;
   text-align: center;
   box-shadow: 1rem 1rem 1rem rgb(0, 0, 0, 0.1);
@@ -129,7 +134,22 @@ body {
 .btn:hover,
 .btn--ved:link,
 .btn--ved:visited {
-  background-color: #e9ecef;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   color: #212529;
 }
 
@@ -137,14 +157,21 @@ body {
   margin-bottom: 3.2rem;
 }
 
+.btn {
+  padding: 2.4rem 3.2rem;
+}
+
+.btn--ved {
+  padding: 3.2rem 3.2rem;
+}
+
 /* ------------------------------------------------------------------------------------ */
 
 .page-credits {
   font-size: 2rem;
   text-align: center;
-  color: #adb5bd;
+  color: #e9ecef;
   font-style: italic;
-  text-align: center;
 
   padding: 0 0 0.8rem;
 }
@@ -154,4 +181,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.dev-page {
+  text-decoration: none;
+  color: #e9ecef;
+}
+
+.dev-page:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
 }
