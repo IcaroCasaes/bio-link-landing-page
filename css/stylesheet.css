@@ -28,6 +28,17 @@
 -- Accents:
 -- Greys: #e9ecef
 
+-- Background hover scheme: 
+#fedb37
+#fdb931
+#9f7928
+#8a6e2f
+#ffffff
+#ffffac
+#d1b464
+#5d4a1f
+
+
 --- 05 Shadows
 
 --- 06 Border-radius
@@ -54,7 +65,7 @@ body {
   font-weight: 400;
   color: #e9ecef;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(252, 164, 2, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(170, 111, 1, 0.2)),
     url(../img/bruna-background-inverted.jpg);
   background-repeat: no-repeat;
   background-size: cover;

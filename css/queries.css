@@ -55,7 +55,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(252, 164, 2, 0.2)
+        rgba(170, 111, 1, 0.2)
       ),
       url(../img/bruna-background-laptop.png);
   }
@@ -140,13 +140,13 @@
   }
 }
 
-/* -------- Below 528px (Smaller tablets) ------------------ */
+/* -------- Below 524px (Smaller tablets) ------------------ */
 
-@media (max-width: 33em) {
+@media (max-width: 32.75em) {
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(252, 164, 2, 0.2)
+        rgba(170, 111, 1, 0.2)
       ),
       url(../img/bruna-background-mobile-g.png);
   }
@@ -181,7 +181,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(252, 164, 2, 0.2)
+        rgba(170, 111, 1, 0.2)
       ),
       url(../img/bruna-background-mobile-m.png);
   }
