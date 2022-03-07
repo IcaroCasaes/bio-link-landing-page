@@ -1,23 +1,5 @@
 Future changes:
 
-- Adjust the texts:
+- Anchor my webpage link to my name at the bottom (for now it's my linkedin)
 
-. btn:
---- Font weight lighter
---- make it so it dont break
-
-. main txt:
---- Change to non-serif
---- Font weight lighter
-
-
-. cta-txt:
---- Ocult on smartphones
-
-- Setup all links
-
-- Anchor my webpage link to my name at the bottom
-
-- Anchor Bruna's webpage link to the title
-
-- Adjust the img in the pc version
+- Anchor Bruna's webpage link to the title (for now it's her Ig page)

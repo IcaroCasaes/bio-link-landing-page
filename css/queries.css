@@ -95,10 +95,6 @@
     font-size: 3.6rem;
   }
 
-  .cta-text {
-    display: none;
-  }
-
   .btn:link,
   .btn:visited {
     font-size: 2.4rem;
@@ -111,6 +107,16 @@
   .stretching {
     min-height: 100%;
     height: auto;
+  }
+
+  /* ----- changing the pointing finger direction */
+  .finger {
+    visibility: hidden;
+  }
+
+  .finger::before {
+    content: "👇🏼";
+    visibility: visible;
   }
 }
 
@@ -171,7 +177,14 @@
   .btn:link,
   .btn:visited {
     font-size: 2rem;
+  }
+
+  .btn {
     padding: 1.6rem 3.2rem;
+  }
+
+  .btn--ved {
+    padding: 2.4rem 3.2rem;
   }
 }
 

@@ -187,13 +187,6 @@ body {
   padding: 0 0 0.8rem;
 }
 
-.stretching {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .dev-page {
   text-decoration: none;
   color: #e9ecef;
@@ -202,4 +195,11 @@ body {
 .dev-page:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
+}
+
+.stretching {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
