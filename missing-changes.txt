@@ -3,3 +3,5 @@ Future changes:
 - Anchor my webpage link to my name at the bottom (for now it's my linkedin)
 
 - Anchor Bruna's webpage link to the title (for now it's her Ig page)
+
+- Include SVG icons to WhatsApp (Business), TikTok and Pinterest

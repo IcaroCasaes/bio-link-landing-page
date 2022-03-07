@@ -1,6 +1,10 @@
 /* ------- Below 1396px (smaller desktops)---------- */
 
 @media (max-width: 87.25em) {
+  .title {
+    padding: 2.4rem 0 0;
+  }
+
   .content-container {
     max-width: 120rem;
     grid-template-columns: 3fr 2fr;
@@ -55,7 +59,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(170, 111, 1, 0.2)
+        rgba(170, 111, 1, 0.12)
       ),
       url(../img/bruna-background-laptop.png);
   }
@@ -104,11 +108,6 @@
     font-size: 3rem;
   }
 
-  .stretching {
-    min-height: 100%;
-    height: auto;
-  }
-
   /* ----- changing the pointing finger direction */
   .finger {
     visibility: hidden;
@@ -152,7 +151,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(170, 111, 1, 0.2)
+        rgba(170, 111, 1, 0.12)
       ),
       url(../img/bruna-background-mobile-g.png);
   }
@@ -194,7 +193,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(170, 111, 1, 0.2)
+        rgba(170, 111, 1, 0.12)
       ),
       url(../img/bruna-background-mobile-m.png);
   }
@@ -233,7 +232,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(170, 111, 1, 0.2)
+        rgba(170, 111, 1, 0.12)
       ),
       url(../img/bruna-background-mobile-m-2.png);
   }
@@ -245,7 +244,7 @@
   body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.6),
-        rgba(170, 111, 1, 0.2)
+        rgba(170, 111, 1, 0.12)
       ),
       url(../img/bruna-background-mobile-p.png);
   }

@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   color: #e9ecef;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(170, 111, 1, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(170, 111, 1, 0.12)),
     url(../img/bruna-background-inverted.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,6 +73,7 @@ body {
 
 .title {
   text-align: center;
+  padding: 1.6rem 0 0;
 }
 
 .page-title {
@@ -81,8 +82,6 @@ body {
   letter-spacing: 4px;
   text-decoration: none;
   color: #e9ecef;
-
-  padding: 1.6rem 0 0;
 }
 
 .main {
@@ -137,7 +136,7 @@ body {
   background-color: #212529;
   border-radius: 0.3rem;
   text-align: center;
-  box-shadow: 1rem 1rem 1rem rgb(0, 0, 0, 0.1);
+  box-shadow: 1rem 1rem 0.8rem rgb(0, 0, 0, 0.2);
 
   transition: all 0.3s;
 }
@@ -148,20 +147,22 @@ body {
   background: radial-gradient(
       ellipse farthest-corner at right bottom,
       #fedb37 0%,
-      #fdb931 8%,
-      #9f7928 30%,
+      #fdb931 4%,
+      #9f7928 20%,
       #8a6e2f 40%,
       transparent 80%
     ),
     radial-gradient(
       ellipse farthest-corner at left top,
       #ffffff 0%,
-      #ffffac 8%,
-      #d1b464 25%,
-      #5d4a1f 62.5%,
+      #ffffac 2%,
+      #d1b464 10%,
+      #5d4a1f 55%,
       #5d4a1f 100%
     );
-  color: #212529;
+  color: #f1f3f5;
+
+  text-shadow: 1px 2px 1.2rem #212529;
 }
 
 .magin-bottom-sm {
